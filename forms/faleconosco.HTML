@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Fale Conosco</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Fale Conosco</h1>
+        </header>
+        <form action="">
+            <div class="row">
+                <div class="col-25">
+                    <label for="fname">Primeiro Nome</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" name="firstname" id="fname" required="true" placeholder="Digite seu nome">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="lastname">Último Nome</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" name="lname" id="lastname" required="true" placeholder="Digite seu sobrenome">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="email">E-Mail</label>
+                </div>
+                <div class="col-75">
+                    <input type="email" name="email" id="email" required="true" placeholder="Digite seu e-mail">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+              <label for="paises">País</label>
+              </div>
+              <div class="col-75">      
+            <select name="paises" id="paises" >
+              <option value="op1">Brasil</option>
+              <option value="op2">Mexico</option>
+              <option value="op3">Portugal</option>
+              <option value="op4">EUA</option>
+              <option value="op5">Paraguai</option>
+            </select>
+        </div>
+        </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="message">Assunto</label>
+                </div>
+                <div class="col-75">
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Escreva aqui..."></textarea>
+
+                    </div>
+            </div>
+          
+            <br>
+            <div class="row">
+                <input type="submit" value="Enviar">
+            </div>
+        </form>
+        <footer>
+            <p>Em caso de duvidas entre em contato:
+            <a href="tel:+5535999999999">(35)999999999</a>
+        </p>
+
+        </footer>
+    </div>
+</body>
+
+</html>

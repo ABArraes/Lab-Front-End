@@ -1,0 +1,40 @@
+.sacola{
+    position: fixed;
+    top: 8px;
+    right:10px;
+background: url(../img/sacola.png) no-repeat top right;
+padding-top: 8px;
+font-size: 14px;
+padding-right: 35px;
+text-align: right;
+width: 140px;
+}
+
+.container{
+    margin: auto;
+    width: 940px;
+
+}/*
+.logo{
+	position:absolute;
+	left: 0px;
+	top:0px;
+
+}*/
+
+.menu-opcoes ul{
+    position: fixed;
+    right:10px;
+    font-size: 15px;
+	display:inline-block;
+	
+}
+
+.menu-opcoes a{
+color: #003366;
+}
+
+body {
+    color: #333333;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
