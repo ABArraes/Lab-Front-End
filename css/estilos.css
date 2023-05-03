@@ -113,6 +113,7 @@ body {
 	font-weight: bold;
 	text-transform: uppercase;
 	margin-bottom: 10px;
+	text-shadow: 3px 2px 2px rgba(0,0,0,0.50);
 }
 .painel a {
 	color: #333;
@@ -121,10 +122,10 @@ body {
 	text-decoration: none;
 }
 .novidades {
-	background-color: #f5dcdc;
+	background: linear-gradient(to bottom left, #f5dcdc,#bebef4);
 }
 .mais-vendidos {
-	background-color: #dcdcf5;
+	background: linear-gradient(to bottom left, #dcdcf5, #f4bebe);
 }
 footer{
 	background-image: url(../img/fundo-rodape.png);
@@ -183,4 +184,8 @@ footer .container {
 }
 .menu-departamentos li li a:before {
 	content: '- ';
+}
+.painel {
+	border-radius:4px;
+	box-shadow:inset 1px 1px 4px #999;
 }
