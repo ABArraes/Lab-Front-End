@@ -107,6 +107,7 @@ body {
 	width: 140px;
 	margin: 2px;
 	padding-bottom: 10px;
+	transition 0.7s ease-out;
 }
 .painel h2 {
 	font-size: 24px;
@@ -188,4 +189,15 @@ footer .container {
 .painel {
 	border-radius:4px;
 	box-shadow:inset 1px 1px 4px #999;
+}
+
+.painel li:hover{
+	background-color: rgba(255,255,255,0.8);
+	box-shadow:0 0 5px #333;
+	transition: 0.7s ease-in;
+	transform: scale(1.2) rotate(-5deg);
+}
+
+.painel li:nth-child(2n):hover {
+	transform: scale(1.2) rotate(5deg);
 }
