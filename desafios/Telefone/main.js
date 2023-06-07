@@ -23,6 +23,25 @@ listaTeclas[0].onclick = function(){
     valorBotao(0);
 }
 
+/*let i=0;
+while(i < listaTeclas.length){
+    const tecla = listaTeclas[i];
+    const indice = i;
+    tecla.onclick = function(){
+        valorBotao(i);
+    }
+    i = i+1;
+}*/
+
+for (let index = 0; index < listaTeclas.length; index++) {
+    const element = listaTeclas[index];
+    listaTeclas.onclick = () => {
+        valorBotao(index);
+    }
+} 
+
+
+
 function limpar(){
     display.value = '';
 }
