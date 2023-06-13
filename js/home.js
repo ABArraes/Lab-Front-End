@@ -20,7 +20,7 @@ controle.addEventListener("click" , () => {
 		controle.className = "play";
 	} else {
 		timer = setInterval(trocaBanner, 4000);
-		controle.className = "pause";
+		controle.className = "pause"; 
 	}
 	//return false;
 });
